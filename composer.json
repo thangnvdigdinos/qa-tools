@@ -1,6 +1,9 @@
 {
     "name": "jkobus/qa-tools",
     "description": "Quality assurance tools package",
+    "require": {
+        "php": ">=5.3.3"
+    },
     "require-dev": {
         "phpunit/phpunit": "~3.7",
         "phpmd/phpmd": "~1.4",
