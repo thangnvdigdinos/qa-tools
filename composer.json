@@ -10,19 +10,20 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.3",
-        "phpunit/phpunit": "~3.7",
+        "phpunit/phpunit": "~4.2",
         "phpmd/phpmd": "~1.4",
         "pdepend/pdepend": "~1.1",
         "phploc/phploc": "~2.0",
         "sebastian/phpcpd": "~2.0",
         "sebastian/phpdcd": "~1.0",
-        "sensiolabs/security-checker": "~1.3",
+        "sensiolabs/security-checker": "~2.0",
         "mockery/mockery": "~0.8",
         "squizlabs/php_codesniffer": "~1.5",
-        "sami/sami": "~1.3",
+        "sami/sami": "~2.0",
         "mayflower/php-codebrowser": "~1.1",
-        "instaclick/symfony2-coding-standard": "dev-remaster",
-        "fabpot/php-cs-fixer": "~0.3"
+        "fabpot/php-cs-fixer": "~0.3",
+        "halleck45/php-metrics": "~1.0",
+        "phpextra/symfony2-coding-standard": "*"
     },
     "config": {
         "process-timeout": 1200
