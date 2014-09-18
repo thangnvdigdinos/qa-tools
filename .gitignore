@@ -3,6 +3,5 @@ build/*
 !build/sami-config.php
 !build/*.xml
 vendor
-composer.lock
 cache.properties
 composer.phar
