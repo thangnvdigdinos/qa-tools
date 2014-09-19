@@ -22,7 +22,6 @@
         "sami/sami": "~2.0",
         "mayflower/php-codebrowser": "~1.1",
         "fabpot/php-cs-fixer": "~0.3",
-        "halleck45/php-metrics": "~1.0",
         "phpextra/symfony2-coding-standard": "*"
     },
     "config": {
