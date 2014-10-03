@@ -7,7 +7,7 @@
             "email": "kobus.jacek@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "php": ">=5.3.3",
         "phpunit/phpunit": "~4.2",
@@ -22,7 +22,8 @@
         "sami/sami": "~2.0",
         "mayflower/php-codebrowser": "~1.1",
         "fabpot/php-cs-fixer": "~0.3",
-        "phpextra/symfony2-coding-standard": "*"
+        "phpextra/symfony2-coding-standard": "@dev",
+        "phine/phar": "~1.0"
     },
     "config": {
         "process-timeout": 1200
