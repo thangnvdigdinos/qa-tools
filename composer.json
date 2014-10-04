@@ -19,11 +19,12 @@
         "sensiolabs/security-checker": "~2.0",
         "mockery/mockery": "~0.8",
         "squizlabs/php_codesniffer": "~1.5",
-        "sami/sami": "~2.0",
         "mayflower/php-codebrowser": "~1.1",
         "fabpot/php-cs-fixer": "~0.3",
         "phpextra/symfony2-coding-standard": "@dev",
-        "phine/phar": "~1.0"
+        "clue/graph-composer": "~0.1",
+        "phine/phar": "~1.0",
+        "theseer/phpdox": "~0.7"
     },
     "config": {
         "process-timeout": 1200
