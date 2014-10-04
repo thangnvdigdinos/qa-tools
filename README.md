@@ -2,47 +2,63 @@
 
 ##Installation
 
-Install through composer: phpextra/qa-tools: ~1.0
+Install through composer: phpextra/qa-tools: ~2.0@dev
 
 ##Dependencies (18-03-2014)
 
-    fabpot/php-cs-fixer                   dev-master a821378     MIT
-    instaclick/symfony2-coding-standard   dev-remaster 180a19d   MIT
-    mayflower/php-codebrowser             1.1.0                  BSD-3-Clause
-    michelf/php-markdown                  dev-lib 6f952ee        BSD-3-Clause
-    mockery/mockery                       dev-master a32c6ad     BSD-3-Clause
-    monolog/monolog                       dev-master db7e2aa     MIT
-    nikic/php-parser                      0.9.x-dev 118f283      BSD-3-Clause
-    pdepend/pdepend                       1.1.3                  BSD-3-Clause
-    phploc/phploc                         dev-master c779a33     BSD-3-Clause
-    phpmd/phpmd                           1.5.0                  none
-    phpunit/php-code-coverage             1.2.13                 BSD-3-Clause
-    phpunit/php-file-iterator             1.3.4                  BSD-3-Clause
-    phpunit/php-text-template             1.1.4                  BSD-3-Clause
-    phpunit/php-timer                     1.0.5                  BSD-3-Clause
-    phpunit/php-token-stream              dev-master ad4e1e2     BSD-3-Clause
-    phpunit/phpunit                       3.7.x-dev 4dbc3ab      BSD-3-Clause
-    phpunit/phpunit-mock-objects          1.2.x-dev c39c451      BSD-3-Clause
-    pimple/pimple                         v1.0.2                 MIT
-    psr/log                               dev-master a78d650     MIT
-    sami/sami                             dev-master a9578e8     MIT
-    sebastian/diff                        dev-master ecc9239     BSD-3-Clause
-    sebastian/finder-facade               dev-master 1e396fd     BSD-3-Clause
-    sebastian/git                         dev-master 55cd9e8     BSD-3-Clause
-    sebastian/phpcpd                      dev-master 5942001     BSD-3-Clause
-    sebastian/phpdcd                      dev-master 04a4b59     BSD-3-Clause
-    sebastian/version                     dev-master b6e1f0c     BSD-3-Clause
-    sensiolabs/security-checker           dev-master 254540f     MIT
-    squizlabs/php_codesniffer             1.5.2                  BSD-3-Clause
-    symfony/console                       dev-master 7a1e03d     MIT
-    symfony/filesystem                    dev-master e81f1b3     MIT
-    symfony/finder                        dev-master d45faef     MIT
-    symfony/process                       dev-master 9f34844     MIT
-    symfony/yaml                          dev-master 6194137     MIT
-    theseer/fdomdocument                  1.5.0                  BSD-3-Clause
-    twig/twig                             dev-master dab8d90     BSD-3-Clause
+    clue/graph                        v0.7.1             A mathematical graph/network library written in PHP
+    clue/graph-composer               v0.1.1             Dependency graph visualization for composer.json
+    doctrine/instantiator             1.0.2              A small, lightweight utility to instantiate objects in PHP without invoking their constructors
+    fabpot/php-cs-fixer               v0.5.7             A script to automatically fix Symfony Coding Standard
+    jms/composer-deps-analyzer        0.1.0              Builds a Dependency Graph from a composer.json file
+    mayflower/php-codebrowser         1.1.1              A code browser that augments the code with information from various QA tools.
+    mockery/mockery                   0.9.2              Mockery is a simple yet flexible PHP mock object framework for use in unit testing with PHPUnit, PHPSpec or any other testing framework. Its core goal is to offer a test double framework with a succint A...
+    monolog/monolog                   1.11.0             Sends your logs to files, sockets, inboxes, databases and various web services
+    nikic/php-parser                  v1.0.0             A PHP parser written in PHP
+    pdepend/pdepend                   1.1.3              Official version of pdepend to be handled with Composer
+    phine/exception                   1.0.0              A PHP library for improving the use of exceptions.
+    phine/observer                    2.0.1              A PHP library that implements the observer pattern.
+    phine/path                        1.1.0              A PHP library for improving the use of file system paths.
+    phine/phar                        1.0.2              A PHP library for creating and reading (without the phar extension) PHP archives.
+    phpextra/symfony2-coding-standard dev-master 620ce7d A code standard to check against the Symfony coding standards.
+    phploc/phploc                     2.0.6              A tool for quickly measuring the size of a PHP project.
+    phpmd/phpmd                       1.5.1              Official version of PHPMD handled with Composer.
+    phpunit/php-code-coverage         2.0.11             Library that provides collection, processing, and rendering functionality for PHP code coverage information.
+    phpunit/php-file-iterator         1.3.4              FilterIterator implementation that filters files based on a list of suffixes.
+    phpunit/php-text-template         1.2.0              Simple template engine.
+    phpunit/php-timer                 1.0.5              Utility class for timing
+    phpunit/php-token-stream          1.3.0              Wrapper around PHP's tokenizer extension.
+    phpunit/phpunit                   4.3.0              The PHP Unit Testing framework.
+    phpunit/phpunit-mock-objects      2.3.0              Mock Object library for PHPUnit
+    psr/log                           1.0.0              Common interface for logging libraries
+    sebastian/comparator              1.0.0              Provides the functionality to compare PHP values for equality
+    sebastian/diff                    1.1.0              Diff implementation
+    sebastian/environment             1.0.0              Provides functionality to handle HHVM/PHP environments
+    sebastian/exporter                1.0.1              Provides the functionality to export PHP variables for visualization
+    sebastian/finder-facade           1.1.0              FinderFacade is a convenience wrapper for Symfony's Finder component.
+    sebastian/git                     1.2.0              Simple wrapper for Git
+    sebastian/phpcpd                  2.0.1              Copy/Paste Detector (CPD) for PHP code.
+    sebastian/phpdcd                  1.0.2              Dead Code Detector (DCD) for PHP code.
+    sebastian/version                 1.0.3              Library that helps with managing the version number of Git-hosted PHP projects
+    sensiolabs/security-checker       v2.0.0             A security checker for your composer.lock
+    squizlabs/php_codesniffer         1.5.5              PHP_CodeSniffer tokenises PHP, JavaScript and CSS files and detects violations of a defined set of coding standards.
+    symfony/console                   v2.5.5             Symfony Console Component
+    symfony/filesystem                v2.5.5             Symfony Filesystem Component
+    symfony/finder                    v2.5.5             Symfony Finder Component
+    symfony/yaml                      v2.5.5             Symfony Yaml Component
+    theseer/directoryscanner          1.3.0              A recursive directory scanner and filter
+    theseer/fdomdocument              1.6.0              The classes contained within this repository extend the standard DOM to use exceptions at all occasions of errors instead of PHP warnings or notices. They also add various custom methods and shortcuts fo...
+    theseer/fxsl                      1.1.0              An XSL wrapper / extension to the PHP 5.x XSLTProcessor with Exception and extended Callback support
+    theseer/phpdox                    0.7.0              A fast Documentation generator for PHP Code using standard technology (SRC, DOCBLOCK, XML and XSLT) with event based processing
 
 
+##Changelog
+
+    2.x
+    - removed sami, added phpdox
+
+    1.x
+    - first release
 
 ##Author
 Jacek Kobus <kobus.jacek@gmail.com>
