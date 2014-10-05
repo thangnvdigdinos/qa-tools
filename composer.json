@@ -22,7 +22,7 @@
         "mayflower/php-codebrowser": "~1.1",
         "fabpot/php-cs-fixer": "~0.3",
         "phpextra/symfony2-coding-standard": "@dev",
-        "clue/graph-composer": "~0.1",
+        "clue/graph-composer": "dev-master",
         "phine/phar": "~1.0",
         "theseer/phpdox": "~0.7"
     },

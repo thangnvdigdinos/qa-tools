@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5b9a5658193f5bdb48c048db9b5abb2b",
+    "hash": "bbf93725921172ea6e7e261e3da8e94d",
     "packages": [
         {
             "name": "clue/graph",
@@ -56,16 +56,16 @@
         },
         {
             "name": "clue/graph-composer",
-            "version": "v0.1.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/clue/graph-composer.git",
-                "reference": "8f1eefe0d872b6a498ed4d911c7dc8f947540b14"
+                "reference": "151ef3a4ba91653bee2973e5dc4331d6e4e58cdb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/clue/graph-composer/zipball/8f1eefe0d872b6a498ed4d911c7dc8f947540b14",
-                "reference": "8f1eefe0d872b6a498ed4d911c7dc8f947540b14",
+                "url": "https://api.github.com/repos/clue/graph-composer/zipball/151ef3a4ba91653bee2973e5dc4331d6e4e58cdb",
+                "reference": "151ef3a4ba91653bee2973e5dc4331d6e4e58cdb",
                 "shasum": ""
             },
             "require": {
@@ -98,20 +98,20 @@
                 "visualize composer",
                 "visualize dependencies"
             ],
-            "time": "2013-09-11 23:11:09"
+            "time": "2014-07-28 18:47:18"
         },
         {
             "name": "doctrine/instantiator",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/instantiator.git",
-                "reference": "26404e0c90565b614ee76b988b9bc8790d77f590"
+                "reference": "8806c41c178ad4a2e87294b851d730779555d252"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/26404e0c90565b614ee76b988b9bc8790d77f590",
-                "reference": "26404e0c90565b614ee76b988b9bc8790d77f590",
+                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/8806c41c178ad4a2e87294b851d730779555d252",
+                "reference": "8806c41c178ad4a2e87294b851d730779555d252",
                 "shasum": ""
             },
             "require": {
@@ -152,7 +152,7 @@
                 "constructor",
                 "instantiate"
             ],
-            "time": "2014-08-25 15:09:25"
+            "time": "2014-10-04 22:48:25"
         },
         {
             "name": "fabpot/php-cs-fixer",
@@ -2208,7 +2208,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "phpextra/symfony2-coding-standard": 20
+        "phpextra/symfony2-coding-standard": 20,
+        "clue/graph-composer": 20
     },
     "prefer-stable": true,
     "platform": {
